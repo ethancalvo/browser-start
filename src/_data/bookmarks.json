@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Favorites",
+    "list": [
+      { "url": "https://m.youtube.com/", "title": "Home - YouTube" },
+      {
+        "url": "https://www.centurypanthers.org/page/show/5728719-boys-cross-country-2020-",
+        "title": "Boys Cross Country"
+      }
+    ]
+  },
+  { "title": "Bookmarks Menu", "list": [] },
+  {
+    "title": "Reading List",
+    "list": [
+      {
+        "url": "https://www.shopify.com/partners/blog/99663558-how-to-use-video-footage-in-web-design?utm_source=Shopify+Partner+Blog&utm_campaign=8550cec905-Partner_Blog_March_28_AP3_28_2016&utm_medium=email&utm_term=0_54a79a9e4c-8550cec905-349702393&mc_cid=8550cec905&mc_eid=22a3bf47ad",
+        "title": "How to Use Video Footage in Web Design"
+      },
+      {
+        "url": "https://developer.apple.com/videos/enterprise/",
+        "title": "Enterprise - Videos - Apple Developer"
+      },
+      {
+        "url": "http://www.bbc.com/news/magazine-32452678",
+        "title": "Getting aid to a war zone in a swarm of drones - BBC News"
+      },
+      {
+        "url": "https://coolestguidesontheplanet.com/get-apache-mysql-php-phpmyadmin-working-osx-10-10-yosemite/",
+        "title": "Apache, MySQL, PHP and phpMyAdmin on OSX 10.10 Yosemite for Local Development"
+      },
+      {
+        "url": "http://www.patheos.com/blogs/thehighcalling/2014/08/will-technology-shape-your-identity-and-your-faith/?utm_content=buffer0552a&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+        "title": "Will Technology Shape Your Identity and Your Faith?"
+      },
+      {
+        "url": "http://www.theguardian.com/books/2015/mar/13/john-gray-steven-pinker-wrong-violence-war-declining?CMP=share_btn_fb",
+        "title": "John Gray: Steven Pinker is wrong about violence and war"
+      },
+      {
+        "url": "http://alo.re/41-creative-diy-hacks-to-improve-your-home/",
+        "title": "41 Creative DIY Hacks To Improve Your Home"
+      },
+      {
+        "url": "http://www.theatlantic.com/politics/archive/2015/03/choose-your-own-enlightenment/387355/",
+        "title": "Choose Your Own Enlightenment"
+      },
+      {
+        "url": "http://adobe-cep.github.io/CEP-Resources/",
+        "title": "Adobe CEP Resources"
+      },
+      {
+        "url": "https://frame-poythress.org/wp-content/uploads/2012/08/PoythressVernRedeemingScience.pdf",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "title": "Work",
+    "list": [
+      { "url": "https://meet.google.com/", "title": "Meet" },
+      { "url": "https://mail.google.com/mail/u/0/#inbox", "title": "LOE-mail" },
+      { "url": "https://chat.google.com/dm/yBweWQAAAAE", "title": "Chat" },
+      {
+        "url": "https://calendar.google.com/calendar/u/0/r?pli=1",
+        "title": "LOE-Calendar"
+      },
+      { "url": "https://trello.com/ethancalvert/boards", "title": "Trello" },
+      {
+        "url": "https://drive.google.com/drive/u/0/priority",
+        "title": "Drive"
+      },
+      {
+        "title": "JAMF",
+        "list": [
+          {
+            "url": "https://logicofenglish.jamfcloud.com/index.html",
+            "title": "Jamf Pro Login"
+          },
+          {
+            "url": "https://www.jamf.com/community/jamf-nation/",
+            "title": "Jamf Nation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Personal",
+    "list": [
+      { "url": "https://meet.google.com/?pli=1&authuser=1", "title": "Meet" },
+      { "url": "https://mail.google.com/mail/u/1/#inbox", "title": "Gmail" },
+      { "url": "https://www.strava.com/dashboard#", "title": "Strava" },
+      {
+        "url": "https://trello.com/b/1DOEdN9t/ethan-private",
+        "title": "My ToDos"
+      }
+    ]
+  }
+]
