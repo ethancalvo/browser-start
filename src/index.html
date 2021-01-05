@@ -27,34 +27,41 @@
         font-family: "Jost", sans-serif;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: flex-end;
         background-image: url("https://unsplash.com/photos/8snOCyy_rTc/download?force=true&w=2400");
         background-position: center center;
       }
       .bookmarks {
         display: grid;
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto auto;
         margin: 0 auto;
+        padding: 0.5em;
+        box-sizing: border-box;
+        width: 100%;
         max-width: 800px;
         gap: 0.5em;
       }
       .bm-cell {
         background-color: rgba(0, 0, 0, 0.4);
         border-radius: 4px;
-        color: #fff;
+        color: #ddd;
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
         padding: 1em;
       }
+      .bm-cell h3 {
+        margin: 0;
+        color: #fff;
+      }
       .bm-cell a {
-        color: #efefef;
+        color: #ddd;
         text-decoration: none;
       }
       .bm-cell.reading-list {
         grid-row-start: 2;
         grid-column-start: 1;
-        grid-column-end: 8;
+        grid-column-end: 4;
       }
       .bm-cell ul {
         margin: 0;
