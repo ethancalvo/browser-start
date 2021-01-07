@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
     }
 
     let bmList = bmArray.map((f) => {
-      if (f.title == "Bookmarks Menu") {
+      if (f.title == "Bookmarks Menu" || f.title == "backgrounds") {
         return ``;
       }
       let className = f.title.replace(/\s+/g, "-").toLowerCase();
@@ -25,6 +25,18 @@ module.exports = function (eleventyConfig) {
     });
 
     return bmList.join("");
+  });
+
+  eleventyConfig.addFilter("background", function (bmArray) {
+    let background = "";
+    let lng = bmArray.length;
+    for (let i = 0; i < lng; i++) {
+      if (bmArray[i].title == "backgrounds") {
+        return bmArray[i].list[0].url;
+      }
+    }
+
+    return background;
   });
 
   return {
