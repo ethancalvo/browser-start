@@ -32,6 +32,48 @@
         background-image: url("https://unsplash.com/photos/_oNISBwMTwo/download?force=true&w=2400");
         background-position: center center;
       }
+      .top {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .top > form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 1em;
+      }
+
+      .top > form > input[type="text"] {
+        font-size: 18px;
+        border-radius: 4px 0 0 4px;
+        margin: 0;
+        padding: 0.5em;
+        border: none;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.4);
+        width: 80%;
+        max-width: 600px;
+      }
+      .top > form > input[type="text"]:focus {
+        outline: none;
+        box-shadow: inset 1px 1px 3px #bada55ff;
+      }
+      .top > form > button {
+        font-size: 18px;
+        border-radius: 0 4px 4px 0;
+        padding: 0.5em;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin: 0;
+        border: none;
+        box-sizing: border-box;
+        color: #fff;
+        width: auto;
+      }
       .bookmarks {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -75,8 +117,21 @@
     </style>
   </head>
   <body>
-    <div class="top"></div>
-    <div class="bookmarks"><div class="bm-cell favorites"><h3>Favorites</h3><ul><li><a href="https://m.youtube.com/">Home - YouTube</a></li><li><a href="https://www.centurypanthers.org/page/show/5728719-boys-cross-country-2020-">Boys Cross Country</a></li></ul></div><div class="bm-cell reading-list"><h3>Reading List</h3><ul><li><a href="https://www.sanity.io/guides/how-to-get-started-with-the-11ty-eleventy-blog-starter">How to get started with the 11ty (Eleventy) Blog Starter</a></li><li><a href="https://www.shopify.com/partners/blog/99663558-how-to-use-video-footage-in-web-design?utm_source=Shopify+Partner+Blog&utm_campaign=8550cec905-Partner_Blog_March_28_AP3_28_2016&utm_medium=email&utm_term=0_54a79a9e4c-8550cec905-349702393&mc_cid=8550cec905&mc_eid=22a3bf47ad">How to Use Video Footage in Web Design</a></li><li><a href="https://developer.apple.com/videos/enterprise/">Enterprise - Videos - Apple Developer</a></li><li><a href="http://www.bbc.com/news/magazine-32452678">Getting aid to a war zone in a swarm of drones - BBC News</a></li><li><a href="http://www.patheos.com/blogs/thehighcalling/2014/08/will-technology-shape-your-identity-and-your-faith/?utm_content=buffer0552a&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer">Will Technology Shape Your Identity and Your Faith?</a></li><li><a href="http://www.theguardian.com/books/2015/mar/13/john-gray-steven-pinker-wrong-violence-war-declining?CMP=share_btn_fb">John Gray: Steven Pinker is wrong about violence and war</a></li><li><a href="http://www.theatlantic.com/politics/archive/2015/03/choose-your-own-enlightenment/387355/">Choose Your Own Enlightenment</a></li><li><a href="http://adobe-cep.github.io/CEP-Resources/">Adobe CEP Resources</a></li><li><a href="https://frame-poythress.org/wp-content/uploads/2012/08/PoythressVernRedeemingScience.pdf"></a></li></ul></div><div class="bm-cell work"><h3>Work</h3><ul><li><a href="https://meet.google.com/">Meet</a></li><li><a href="https://mail.google.com/mail/u/0/#inbox">LOE-mail</a></li><li><a href="https://chat.google.com/dm/yBweWQAAAAE">Chat</a></li><li><a href="https://calendar.google.com/calendar/u/0/r?pli=1">LOE-Calendar</a></li><li><a href="https://trello.com/ethancalvert/boards">Trello</a></li><li><a href="https://drive.google.com/drive/u/0/priority">Drive</a></li><li><a href="https://app.slack.com/client/T9Y440GN8/C9Y51FDGA">Sanity.io Slack Channel</a></li><li><h3>JAMF</h3><ul><li><a href="https://logicofenglish.jamfcloud.com/index.html">Jamf Pro Login</a></li><li><a href="https://www.jamf.com/community/jamf-nation/">Jamf Nation</a></li></ul></li></ul></div><div class="bm-cell personal"><h3>Personal</h3><ul><li><a href="https://meet.google.com/?pli=1&authuser=1">Meet</a></li><li><a href="https://mail.google.com/mail/u/1/#inbox">Gmail</a></li><li><a href="https://www.strava.com/dashboard#">Strava</a></li><li><a href="https://trello.com/b/1DOEdN9t/ethan-private">My ToDos</a></li></ul></div></div>
+    <div class="top">
+      <form method="get" action="http://www.google.com/search">
+        <input
+          type="text"
+          name="q"
+          style="color: #808080"
+          maxlength="255"
+          value="Google site search"
+          onfocus="if(this.value==this.defaultValue)this.value=''; this.style.color='black';"
+          onblur="if(this.value=='')this.value=this.defaultValue; "
+        />
+        <button type="submit">Go!</button>
+      </form>
+    </div>
+    <div class="bookmarks"><div class="bm-cell favorites"><h3>Favorites</h3><ul><li><a href="https://m.youtube.com/">Home - YouTube</a></li><li><a href="https://www.centurypanthers.org/page/show/5728719-boys-cross-country-2020-">Boys Cross Country</a></li></ul></div><div class="bm-cell reading-list"><h3>Reading List</h3><ul><li><a href="https://programmablesearchengine.google.com/about/">Programmable Search Engine by Google</a></li><li><a href="https://www.sanity.io/guides/how-to-get-started-with-the-11ty-eleventy-blog-starter">How to get started with the 11ty (Eleventy) Blog Starter</a></li><li><a href="https://www.shopify.com/partners/blog/99663558-how-to-use-video-footage-in-web-design?utm_source=Shopify+Partner+Blog&utm_campaign=8550cec905-Partner_Blog_March_28_AP3_28_2016&utm_medium=email&utm_term=0_54a79a9e4c-8550cec905-349702393&mc_cid=8550cec905&mc_eid=22a3bf47ad">How to Use Video Footage in Web Design</a></li><li><a href="https://developer.apple.com/videos/enterprise/">Enterprise - Videos - Apple Developer</a></li><li><a href="http://www.bbc.com/news/magazine-32452678">Getting aid to a war zone in a swarm of drones - BBC News</a></li><li><a href="http://www.patheos.com/blogs/thehighcalling/2014/08/will-technology-shape-your-identity-and-your-faith/?utm_content=buffer0552a&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer">Will Technology Shape Your Identity and Your Faith?</a></li><li><a href="http://www.theguardian.com/books/2015/mar/13/john-gray-steven-pinker-wrong-violence-war-declining?CMP=share_btn_fb">John Gray: Steven Pinker is wrong about violence and war</a></li><li><a href="http://www.theatlantic.com/politics/archive/2015/03/choose-your-own-enlightenment/387355/">Choose Your Own Enlightenment</a></li><li><a href="http://adobe-cep.github.io/CEP-Resources/">Adobe CEP Resources</a></li><li><a href="https://frame-poythress.org/wp-content/uploads/2012/08/PoythressVernRedeemingScience.pdf"></a></li></ul></div><div class="bm-cell work"><h3>Work</h3><ul><li><a href="https://meet.google.com/">Meet</a></li><li><a href="https://mail.google.com/mail/u/0/#inbox">LOE-mail</a></li><li><a href="https://chat.google.com/dm/yBweWQAAAAE">Chat</a></li><li><a href="https://calendar.google.com/calendar/u/0/r?pli=1">LOE-Calendar</a></li><li><a href="https://trello.com/ethancalvert/boards">Trello</a></li><li><a href="https://drive.google.com/drive/u/0/priority">Drive</a></li><li><a href="https://app.slack.com/client/T9Y440GN8/C9Y51FDGA">Sanity.io Slack Channel</a></li><li><h3>JAMF</h3><ul><li><a href="https://logicofenglish.jamfcloud.com/index.html">Jamf Pro Login</a></li><li><a href="https://www.jamf.com/community/jamf-nation/">Jamf Nation</a></li></ul></li></ul></div><div class="bm-cell personal"><h3>Personal</h3><ul><li><a href="https://meet.google.com/?pli=1&authuser=1">Meet</a></li><li><a href="https://mail.google.com/mail/u/1/#inbox">Gmail</a></li><li><a href="https://www.strava.com/dashboard#">Strava</a></li><li><a href="https://trello.com/b/1DOEdN9t/ethan-private">My ToDos</a></li></ul></div></div>
   </body>
   <script>
     const localStorage = window.localStorage;
